@@ -4,15 +4,10 @@ DEFINE_LOG_CATEGORY(LogBeluga);
 class FBelugaModule : public FDefaultGameModuleImpl
 {
 public:
-	virtual void StartupModule() override
-	{
+	virtual void StartupModule() override{
+
 		UE_LOG(LogBeluga, Display, TEXT("BelugaModule::StartupModule"));
 
-
-
-		extern void StringTest();
-
-		StringTest();
 	}
 	virtual void ShutdownModule() override
 	{
@@ -21,3 +16,5 @@ public:
 };
 
 IMPLEMENT_PRIMARY_GAME_MODULE(FBelugaModule, Beluga, "Beluga");
+
+

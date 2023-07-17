@@ -11,8 +11,8 @@ public:
 
 
 	UPROPERTY()
-		int32 Number;
+	int32 Number;
 	
-	UFUNTION()
-		bool HongikUniv();
+	//UFUNTION();
+		//bool HongikUniv();
 };

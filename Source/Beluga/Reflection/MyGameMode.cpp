@@ -5,10 +5,10 @@ AMyGameMode::AMyGameMode()
 
 }
 
-bool AMyGameMode::HongikUniv()
-{
+//bool AMyGameMode::HongikUniv()
+//{
 
-	return true;
-}
+	//return true;
+//}
 
  
